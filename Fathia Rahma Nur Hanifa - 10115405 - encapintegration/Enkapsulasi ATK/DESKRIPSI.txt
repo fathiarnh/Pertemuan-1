@@ -1,0 +1,3 @@
+perbedaan abstract dengan encapsulation itu:
+  abstract untuk menyembunyikan (hiding) method dari suatu class abstract, seperti ingin memisahkan atau menyembunyikan rumus-rumus untuk akumulasi data sehingga rumus tersebut tidak bisa diubah-ubah lagi. si method di class abstract itu diberi protected sehingga harus dipanggil di kelas turunan sebelum digunakan di kelas utama. 
+  kalau encapsulation itu untuk menyembunyikan nilai suatu data atau variable sehingga si user tidak bisa merubah nilai tersebut, atau untuk melindungi suatu variable sehingga dia mungkin hanya bisa dibaca saja (read only) atau ditulis saja (write only) atau bisa keduanya dengan menggunakan getter setter
