@@ -1,5 +1,4 @@
 
-
 package enkapsulasi.atk;
 
 import java.util.Scanner;
@@ -10,21 +9,19 @@ public class EnkapsulasiATK {
     public static void main(String[] args) {
         int jbuku, jpensil, jpenggaris;
         int tbuku, tpensil, tpenggaris, tbarang;
+        double diskon, tbayar;
         
         enkapsulasiHarga list = new enkapsulasiHarga();
         hitungATK hitung = new hitungATK();
-        System.out.println("========== TOKO ALAT TULIS ==========");
-        System.out.println("LIST HARGA :");
-        System.out.println("\tBuku      = Rp."+list.getBuku());
-        System.out.println("\tPensil    = Rp."+list.getPensil());
-        System.out.println("\tPenggaris = Rp."+list.getPenggaris());
-        System.out.println("-------------------------------------");
+        classTampilan tampil = new classTampilan();
+        Scanner input = new Scanner(System.in);
         
-        Scanner input = new Scanner(System.in);        
+        tampil.tampilBarang();
+        tampil.tampilDiskon();
+                
              
         System.out.print("Masukan nama Pembeli     : ");
-        String nama = input.nextLine();
-        list.setPembeli(nama);
+        list.setPembeli(input.nextLine());
         
         System.out.print("Masukan Jumlah Buku      : ");
         jbuku = input.nextInt();
@@ -35,7 +32,7 @@ public class EnkapsulasiATK {
         System.out.print("Masukan Jumlah Penggaris : ");
         jpenggaris = input.nextInt();
         
-         System.out.println("-------------------------------------");
+        System.out.println("--------------------------------------");
         
         tbuku = hitung.hitungBarang(jbuku, list.getBuku());
         tpensil = hitung.hitungBarang(jpensil, list.getPensil());
@@ -43,14 +40,30 @@ public class EnkapsulasiATK {
         
         tbarang = hitung.hitungTotal(tbuku, tpensil, tpenggaris);
         
-        System.out.println("Nama Pembeli         : "+list.getPembeli());
+        System.out.println("Nama Pembeli          : "+list.getPembeli());
         System.out.println("Total Harga Buku      : Rp."+tbuku);
         System.out.println("Total Harga Pensil    : Rp."+tpensil);
         System.out.println("Total Harga Penggaris : Rp."+tpenggaris);
         System.out.println("\nJumlah Pembayaran     : Rp."+tbarang);
-         System.out.println("-------------------------------------");
-        System.out.println("\t\tTERIMAKASIH");
-        System.out.println("======================================");
+        
+        if(tbarang >= 25000){
+            diskon = hitung.hitungDiskon(tbarang);
+        }else{
+            diskon = hitung.hitungDiskon(0);
+        }
+        
+        tbayar = hitung.hitungTotalAkhir(tbarang, diskon);
+        
+        System.out.println("Diskon                : Rp."+diskon);
+        System.out.println("Total Bayar           : Rp."+tbayar);
+        System.out.println("--------------------------------------");
+        int stokBuku = list.hitungStokBarang(list.stokBuku(), jbuku );
+        int stokPensil = list.hitungStokBarang(list.stokPensil(), jpensil );
+        int stokPenggaris = list.hitungStokBarang(list.stokPenggaris(), jpenggaris );
+        System.out.println("stok buku      : "+stokBuku);
+        System.out.println("stok pensil    : "+stokPensil);
+        System.out.println("stok penggaris : "+stokPenggaris);
+        tampil.tampilFooter();
     }
     
 }
