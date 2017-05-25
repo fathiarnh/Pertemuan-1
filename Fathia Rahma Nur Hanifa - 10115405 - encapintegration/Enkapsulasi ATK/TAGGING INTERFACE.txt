@@ -1,0 +1,9 @@
+Tagging interface itu adalah sebuah interface yang tidak mempunyai abstrak method di body nya atau hanya berupa interface kosong. mereka digunakan untuk menambah tipe data sebuah kelas yang mengimplement tagging interface tersebut agar menjadi parent interface untuk interface-interface yang lain. (khususnya untuk multiple inheritance di interface).
+
+contoh : 
+public inteface nama{}
+public interface alamat1{}
+public interface alamat2{}
+public interface Demo extends nama, alamat1,alaman2{}
+
+ketika jvm melihat nama interface, mereka akan mencari tau si interface demo akan mengarahkan sebuah skenario tertentu.
