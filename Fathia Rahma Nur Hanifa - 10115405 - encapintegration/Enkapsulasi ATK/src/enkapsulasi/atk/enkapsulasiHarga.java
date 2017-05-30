@@ -3,7 +3,6 @@ package enkapsulasi.atk;
 
 public class enkapsulasiHarga implements implementStok, hitungStok{
     private int buku, pensil, penggaris, sbuku, spensil, spenggaris;
-    private String pembeli;
     
     public int getBuku(){
         return buku=3000;
@@ -15,15 +14,7 @@ public class enkapsulasiHarga implements implementStok, hitungStok{
     
     public int getPenggaris(){
         return penggaris=4000;
-    }
-    
-    public void setPembeli(String pembeli){
-        this.pembeli = pembeli;
-    }
-    
-    public String getPembeli(){
-        return pembeli;
-    }   
+    }  
 
     @Override
     public int stokBuku() {

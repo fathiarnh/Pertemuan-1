@@ -15,13 +15,26 @@ public class EnkapsulasiATK {
         hitungATK hitung = new hitungATK();
         classTampilan tampil = new classTampilan();
         Scanner input = new Scanner(System.in);
+                
+        BiodataGeneric<String> nama = new BiodataGeneric<String>();
+        //DI SAYA EEROR JIKA : ... = new BiodataGeneric<>();
+        BiodataGeneric<String> alamat = new BiodataGeneric<String>();
+        BiodataGeneric<Integer> umur = new BiodataGeneric<Integer>();
         
         tampil.tampilBarang();
         tampil.tampilDiskon();
                 
              
         System.out.print("Masukan nama Pembeli     : ");
-        list.setPembeli(input.nextLine());
+        nama.setIdentitas(input.nextLine());        
+        
+        System.out.print("Masukan alamat Pembeli   : ");
+        alamat.setIdentitas(input.nextLine());
+        
+        System.out.print("Masukan umur Pembeli     : ");
+        umur.setIdentitas(input.nextInt());
+        
+        System.out.println("--------------------------------------");
         
         System.out.print("Masukan Jumlah Buku      : ");
         jbuku = input.nextInt();
@@ -40,7 +53,10 @@ public class EnkapsulasiATK {
         
         tbarang = hitung.hitungTotal(tbuku, tpensil, tpenggaris);
         
-        System.out.println("Nama Pembeli          : "+list.getPembeli());
+        System.out.println("Nama Pembeli          : "+nama.getIdentitas());
+        System.out.println("Alamat Pembeli        : "+alamat.getIdentitas());
+        System.out.println("Umur Pembeli          : "+umur.getIdentitas()+" tahun");
+        System.out.println("--------------------------------------");
         System.out.println("Total Harga Buku      : Rp."+tbuku);
         System.out.println("Total Harga Pensil    : Rp."+tpensil);
         System.out.println("Total Harga Penggaris : Rp."+tpenggaris);
