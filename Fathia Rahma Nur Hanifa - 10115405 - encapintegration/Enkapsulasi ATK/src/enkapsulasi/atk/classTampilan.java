@@ -6,7 +6,7 @@ public class classTampilan implements implementTampilan{
    @Override
     public void tampilBarang() {
         enkapsulasiHarga list = new enkapsulasiHarga();
-        System.out.println("========== TOKO ALAT TULIS ==========");
+        System.out.println("================= TOKO ALAT TULIS =================");
         System.out.println("LIST HARGA :");
         System.out.println("\tBuku      = Rp."+list.getBuku());
         System.out.println("\t            Stok Barang : "+list.stokBuku());
@@ -20,14 +20,14 @@ public class classTampilan implements implementTampilan{
     public void tampilDiskon() {
         System.out.println("\nDapatkan Diskon 10% setiap belanja");
         System.out.println("       lebih dari Rp.25000");
-        System.out.println("-------------------------------------");
+        System.out.println("---------------------------------------------------");
     }
 
     @Override
     public void tampilFooter() {        
-        System.out.println("--------------------------------------");
-        System.out.println("\t    TERIMAKASIH");
-        System.out.println("======================================");
+        System.out.println("---------------------------------------------------");
+        System.out.println("\t\t    TERIMAKASIH");
+        System.out.println("===================================================");
     }   
 
 }
