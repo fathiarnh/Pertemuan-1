@@ -28,6 +28,41 @@ public class classTampilan implements implementTampilan{
         System.out.println("---------------------------------------------------");
         System.out.println("\t\t    TERIMAKASIH");
         System.out.println("===================================================");
-    }   
+    }
+    
+    private static <T> void detailPembeli(T x){
+        System.out.println(x);
+    }
+    
+    public void tampilAdmin(){
+        String adm, alamat;
+        int nip, u;
+        
+        System.out.println("DATA ADMIN");
+        System.out.print("\tNIP \t: ");
+        nip = 12;
+        Gen1.showNIP(nip);
+        
+        System.out.print("\tNama \t: ");
+        adm = "Bagus Rahmat";
+        detailPembeli(adm);
+        
+        System.out.print("\tAlamat \t: ");
+        alamat = "Cibeber, Cimahi";
+        Gen1.showAddress(alamat);
+        
+        Gen1<String> em = new Gen1<String>();
+        
+        System.out.print("\tEmail \t: ");
+        em.setType("bagusrhmt@gmail.com");
+        System.out.println(em.getType());
+        
+        Gen1<Integer> um = new Gen1<Integer>();
+        System.out.print("\tUmur \t: ");
+        u = 20;
+        System.out.println(um.umur(u));      
+        
+        System.out.println("-------------------------------------");
+    }
 
 }

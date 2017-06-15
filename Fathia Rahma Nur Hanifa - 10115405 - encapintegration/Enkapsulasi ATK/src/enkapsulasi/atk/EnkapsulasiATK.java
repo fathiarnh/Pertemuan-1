@@ -2,6 +2,7 @@
 package enkapsulasi.atk;
 
 import java.util.Scanner;
+import data_transaksi.transaksi;
 
 
 public class EnkapsulasiATK {
@@ -15,6 +16,7 @@ public class EnkapsulasiATK {
         hitungATK hitung = new hitungATK();
         classTampilan tampil = new classTampilan();
         Scanner input = new Scanner(System.in);
+        transaksi nota = new transaksi();
                 
         BiodataGeneric<String> nama = new BiodataGeneric<String>();
         //DI SAYA EEROR JIKA : ... = new BiodataGeneric<>();
@@ -23,8 +25,17 @@ public class EnkapsulasiATK {
         BiodataGeneric<String> telp = new BiodataGeneric<String>();
         BiodataGeneric<String> mail = new BiodataGeneric<String>();
         
+        tampil.tampilAdmin();
         tampil.tampilBarang();
         tampil.tampilDiskon();
+        
+        System.out.println("DATA TRANSAKSI : ");
+        System.out.println("\tNo Nota      : "+nota.noNota(215));
+        System.out.println("\tNama Kasir   : "+nota.nama("Nita A.P"));
+        System.out.println("\tTanggal/Jam  : "+nota.tanggal("6/14/2017")+" "+nota.jam("9:18 AM"));
+        System.out.println("\tDust         : "+nota.dust("01 CASH"));
+        
+        System.out.println("---------------------------------------------------");
                 
         System.out.println("DATA PEMBELI : ");     
         System.out.print("\tMasukan nama Pembeli     : ");
