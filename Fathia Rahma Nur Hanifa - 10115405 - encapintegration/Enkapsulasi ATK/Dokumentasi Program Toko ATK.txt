@@ -1,0 +1,26 @@
+DOKUMENTASI PROGRAM TOKO ATK
+
+deksripsi : program toko atk berbasis java dengan konsep oop ini adalah program yang berisikan data masukan dan data keluaran serta informasi pada saat melakukan transaksi jual beli atk.
+
+penggunaan : cukup di run saja programnya, lalu akan muncul menu atau fitur dari program seperti : 
+	1. Data admin
+	2. Data list, stok dan harga barang di toko atk
+	3. Data nota seperti no nota, tanggal transaksi, nama kasir, dll
+	4. data transaksi  : mengisikan data pembeli dan jumlah barang yang akan dibeli ada di toko atk. jika tidak ingin membeli,
+ 		cukup inputkan jumlah barangnya 0. setelah selesai menginputkan data, makan akan muncul rincian transaksi saat
+ 		belanja seperti data pembeli, total harga setiap barang, lalu jumlah total harga keseluruhan barang, dan apabila
+ 		memenuhi syarat mendapat diskon, maka akan ditampilkan total diskon dan total akhir pembayaran. lalu muncul juga sisa
+		stok barang, dan selesai.
+	5. Keluar Program
+
+	pilih menu dari 1-5 sesuai dengan menu yang diinginkan, jika ingin kembali ke menu awal, masukan 0.
+
+keterkaitan dengan oop : 
+	1. inheritance : hitungATK.java
+	2. Overriding : enkapsulasiHarga.java, hitungATK.java, classTampilan.java
+	3. abstraction : abstrakATK.java,
+	4. enkapsulasi : enkapsulasiHarga.java
+	5. Interface : implemenStok.java, implemenTampilan.java
+	6. Generic Class : BiodataGeneric.java(objeknya di Enkapsulasi.java), Gen1.java (objek di classTampilan.java/method 				tampilAdmin())
+	7. Generic Method : Gen1.java, classTampilan.java
+	8. Packages : ada 2 packages yaitu "data_transaksi", dan "enkapsulasi.atk"
