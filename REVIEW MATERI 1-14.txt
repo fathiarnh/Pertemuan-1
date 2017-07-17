@@ -1,0 +1,189 @@
+REVIEW PROLAN - OOP
+
+--------------------------------------------------------------------------------------------------------------------------------------
+| Pertemuan|        Materi       |                         Penjelasan                        |              Folder Github            |
+--------------------------------------------------------------------------------------------------------------------------------------
+| 1        | PENDAHULUAN         | -silabus Prolan                                           |                   -                   |
+|          |                     | -Kontrak Perkuliahan                                      |                   -                   |
+|          |                     | -Membuat akun github                                      |                   -                   |
+|          |                     | -membuat program java pertama Hello World                 |-fathiarnh/Prolan-11/Pertemuan 1       |
+--------------------------------------------------------------------------------------------------------------------------------------
+| 2        |Konsep Dasar PBO-OOP | -PBO : Pemrograman Berorientasi objek                     |                   -                   |
+|          |                     | -OO : Object Oriented (Cara Berpikirnya)                  |                   -                   |
+|          |                     | -Pengembangan Perangkat Lunak : Fungsional, OO            |                   -                   |
+|          |                     | -Paradigma Berorientasi Objek : Analisis, Design          |                   -                   |
+|          |                     |      Program, Testing				     |		         -		     |
+|          |                     | - Prosedural Vs OO :					     |                   -                   |
+|	   |			 |      a. Type Vs Class				     |                   -                   |
+|          |                     |      b. Variable Vs Objek				     |		         -		     |
+|          |                     |      b. Lokal, Global Vs public, private, protected	     |		         -		     |
+|          |                     |      b. tidak ada definisi kelas Vs Definisi Kelas	     |		         -                   |
+|          |                     | -Pemodelan dan diagram : UML, pemrograman bahasa tertentu |		         -                   |
+|          |                     | -Karakteristik PBO : abstraksi, enkapsulasi, generik,     |		         -                   |
+|          |                     | 	Inheritance, polymorphism, general, objek, dll	     |		         -	             |
+|	   |                     | -membuat program : menampilkan data mahasiswa	     |-fathiarnh/Prolan-11/Pertemuan 2 TEORI |
+|	   |                     | -membuat program : membuat Input Output dan pindah baris  |-fathiarnh/Prolan-11/Pertemuan 2 LAB   |
+--------------------------------------------------------------------------------------------------------------------------------------
+| 2        |Konsep Dasar PBO-OOP | -PBO : Pemrograman Berorientasi objek                     |                   -                   |
+|          |                     | -OO : Object Oriented (Cara Berpikirnya)                  |                   -                   |
+|          |                     | -Pengembangan Perangkat Lunak : Fungsional, OO            |                   -                   |
+|          |                     | -Paradigma Berorientasi Objek : Analisis, Design          |                   -                   |
+|          |                     |      Program, Testing				     |		         -		     |
+|          |                     | - Prosedural Vs OO :					     |                   -                   |
+|	   |			 |      a. Type Vs Class				     |                   -                   |
+|          |                     |      b. Variable Vs Objek				     |		         -		     |
+|          |                     |      b. Lokal, Global Vs public, private, protected	     |		         -		     |
+|          |                     |      b. tidak ada definisi kelas Vs Definisi Kelas	     |		         -                   |
+|          |                     | -Pemodelan dan diagram : UML, pemrograman bahasa tertentu |		         -                   |
+|          |                     | -Karakteristik PBO : abstraksi, enkapsulasi, generik,     |		         -                   |
+|          |                     | 	Inheritance, polymorphism, general, objek, dll	     |		         -	             |
+|	   |                     | -membuat program : menampilkan data mahasiswa	     |-fathiarnh/Prolan-11/Pertemuan 2 TEORI |
+|	   |                     | -membuat program : membuat Input Output dan pindah baris  |-fathiarnh/Prolan-11/Pertemuan 2 LAB   |
+--------------------------------------------------------------------------------------------------------------------------------------
+| 3        |Kelas dan Objek      | -kelas :bentuk klasifikasi dari objek2 yang ada di sekitar|                   -                   |
+|          |                     | -objek-objek yang memiliki kesamaan dari segi data dan    |		         -	             |
+|          |                     |	fungsi diklasifikasikan kepada kelas tertentu	     |		         -	             |
+|          |                     | -di dalam kelas terdefinisi data dan operasi dari setiap  |		         -	             |
+|          |                     |	objek yang diklasifikasikan pada kelas tsb           |		         -	             |
+|          |                     | -objek adalah instansiasi/perwujudan dari kelas           |		         -	             |
+|          |                     | -objek memiliki data dan fungsi yang dimiliki oleh kelas  |		         -	             |
+|          |                     | -kelas memiliki objek dan atribut                         |		         -	             |
+|          |                     | -cara akses kelas : public, private, protected            |		         -	             |
+|          |                     | -nama kelas harus sama dengan nama file                   |		         -	             |
+|          |                     | -membuat program data karyawan (latihan kelas dan objek)  |-fathiarnh/Prolan-11/Pertemuan 3 TEORI |
+|          |                     | -membuat program latihan mengenal tipe data               |-fathiarnh/Prolan-11/Pertemuan 3 LAB   |
+--------------------------------------------------------------------------------------------------------------------------------------
+| 4        | Method, Konstruktor,| -method : sekumpulan baris program atau prosedur yang     |                   -                   |
+|          |  this dan atribut   | 	secara bersama-sama melakukan task/tugas             |		         -	             |
+|          |                     |	fungsi diklasifikasikan kepada kelas tertentu	     |		         -	             |
+|          |                     | -method didefinisikan di dalam kelas			     |		         -	             |
+|          |                     | -method ada yg punya parameter ada yang tidak             |		         -	             |
+|          |                     | -method juga punya hak akses (public, private, protected) |		         -	             |
+|          |                     | -method punya keyword :                                   |		         -	             |
+|          |                     | 	void : method tidak mengembalikan nilai              |		         -	             |
+|          |                     | 	return type : method mengembalikan nilai             |		         -	             |
+|          |                     | -parameter : data dalam representasi variable yang        |		         -	             |
+|          |                     | 	disematkan di dalam header sebuah method             |		         -	             |
+|          |                     | -method overloading : kelas yang punya method sama namun  |		         -	             |
+|          |                     | 	return type : method mengembalikan nilai             |		         -	             |
+|          |                     | -Kontruktor : semua kelas di java memiliki kontruktor     |		         -	             |
+|          |                     | -Membuat atau tidak membuat kontruktor di kelas java,     |		         -	             |
+|          |                     | 	java akan membuat kontruktor default-nya sendiri     |		         -	             |
+|          |                     | 	yaitu menginisialisasi semua variable ke 0           |		         -	             |
+|          |                     | -this : digunakan sebagai referensi sebuah objek dari     |                   -                   | 
+|          |                     |	kelas dimana this tersebut digunakan                 |                   -                   |
+|          |                     | -Atribut : merepresentasikan data dari sebuah class       |		         -	             |
+|          |                     | -atribut juga dikatakan sebagai data dari kelas tersebut  |		         -	             |
+|          |                     | --membuat program data karyawan (update projek)           |-fathiarnh/Prolan-11/Pertemuan 4 Teori |
+|          |                     | -Studi kasus IPK, program latihan variable & operator     |-fathiarnh/Prolan-11/Pertemuan 4 LAB   |
+--------------------------------------------------------------------------------------------------------------------------------------
+| 5        | Inheritance         | -Inheritance : kelas yang diturunkan dari kelas lain      |                   -                   |
+|          |                     | -memungkinkan menggunakan ulang kode dan mempercepat      |		         -	             |
+|          |                     |	proses implementasi                      	     |		         -	             |
+|          |                     | -apa yang dimiliki kelas turunannya belum tentu dimiliki  |		         -	             |
+|          |                     |	kelas pewarisnya                                     |		         -	             |
+|          |                     | -semua fungsi dan atribut dapat diturunkan                |		         -	             |
+|          |                     | -inheritance memungkinkan proses override, yaitu fungsi di|		         -	             |
+|          |                     | 	kelas pewaris dapat dimodifikasi kelas turunannya    |		         -	             |
+|          |                     | -inheritance menggunakan keyword extends pada kelasnya    |		         -	             |
+|          |                     | -keyword super sama dengan keyword this : membedakan      |		         -	             |
+|          |                     | 	atribut dan method yang dimiliki super kelas dengan  |		         -	             |
+|          |                     | 	atribut dan method yang dimiliki sub kelas jika kedua|		         -	             |
+|          |                     | 	kelas memiliki nama atribut dan method yang sama     |		         -	             |
+|          |                     | -bedanya method dan inheritance :                         |		         -	             |
+|          |                     | 	a. method : hanya memanggil isi method lain          |		         -	             |
+|          |                     | 	b. inheritance : dapat modifikasi dari method lain   |		         -	             |
+|          |                     | -membuat program laundry				     |-fathiarnh/Prolan-11/Pertemuan 5 TEORI |
+|          |                     | -membandingkan data minimum dan maksimum                  |-fathiarnh/Prolan-11/Pertemuan 5 LAB   |
+--------------------------------------------------------------------------------------------------------------------------------------
+| 6        | Overiding           | -overriding : memodifikasi.mengimplement/mengupdate/      |                   -                   |
+|          |                     | 	menulis kembali/mengganti isi method yang suda ada di|		         -	             |
+|          |                     |	super class.                      	             |		         -	             |
+|          |                     | -method yang dioverride adalah method turunan             |		         -	             |
+|          |                     | -method yang dioverride itu yang nama & parameternya sama |		         -	             |
+|          |                     | -method dengan akses final & private tidak bisa dioverride|		         -	             |
+|          |                     | -method static hanya bisa dimodifikasi saja               |		         -	             |
+--------------------------------------------------------------------------------------------------------------------------------------
+| 7        | polimorfisme        | -polimorfisme adalah kemampuan sebuah objek yang dapat    |                   -                   |
+|          |                     | 	memiliki banyak bentuk(kelas)                        |		         -	             |
+|          |                     | -polimorfisme terjadi ketika sebuah super kelas digunakan |		         -	             |
+|          |                     | 	untuk menjadi reference objek dari sub-kelas         |		         -	             |
+|          |                     | -pada java, semua objek adalah polimorfik karena kelas di |		         -	             |
+|          |                     | 	java adalah turunan kelas object                     |		         -	             |
+|          |                     | -method static hanya bisa dimodifikasi saja               |		         -	             |
+--------------------------------------------------------------------------------------------------------------------------------------
+| 9        | abstraction         | -abstraksi : proses menyembunyikan detail proses yang     |                   -                   |
+|          |                     | 	dilakukan oleh objek                                 |		         -	             |
+|          |                     | -hanya fungsionalitas saja yang ditampilkan               |		         -	             |
+|          |                     | -keyword abstract digunakan pada deklarasi kelas          |		         -	             |
+|          |                     | -kelas abstrak boleh atau tidak mempunyai method abstrak  |		         -	             |
+|          |                     | -kelas abstrak harus diturunkan pada kelas konkret        |		         -	             |
+|          |                     | -turunan kelas abstrak digunakan untuk membuat objek      |		         -	             |
+|          |                     | -kelas tersebut harus mengimplement semua method abstrak  |		         -	             |
+|          |                     | -turunan kelas abstrak digunakan untuk membuat objek      |		         -	             |
+|          |                     | -abstract method : method yang tidak memiliki implementasi|		         -	             |
+|          |                     | 	pada badan methodnya                                 |		         -	             |
+|          |                     |-membuat program latihan abstrak dan kalkulator            |-fathiarnh/Prolan-11/Pertemuan 9 LAB   |
+--------------------------------------------------------------------------------------------------------------------------------------
+| 10       | enkapsulasi         | -enkapsulasi : proses atau mekanisme yang membungkus data |                   -                   |
+|          |                     | 	dan fungsi dari sebuah kelas menjadi sebuah unit     |		         -	             |
+|          |                     | -enkapsulasi : konsep data hiding, menghidden atribut     |		         -	             |
+|          |                     | 	dari sebuah kelas dari kelas lain.                   |		         -	             |
+|          |                     | -atribut yang di enkapsulasi di set private               |		         -	             |
+|          |                     | -data yang di set private dapat diakses dan modifikasi    |		         -	             |
+|          |                     | 	melalui method public yang disebut dengan getter     |		         -	             |
+|          |                     | 	setter 	                                             |	                 -	             |
+|          |                     | -membuat program toko ATK (tugas besar)                   |-fathiarnh/Prolan-11/Pertemuan 10 LAB  |
+--------------------------------------------------------------------------------------------------------------------------------------
+| 11       | interface           | -interface : reference type yang mirip dengan kelas       |                   -                   |
+|          |                     | -interface : berisi sekumpulan method abstrak             |		         -	             |
+|          |                     | -kelas vs interface:                                      |		         -	             |
+|          |                     | 	a. kesamaan : punya method di dalamnya, berekstensi  |		         -	             |
+|          |                     | 	   java, nama interface sama dengan nama file        |		         -	             |
+|          |                     | 	b. kekurangan : tidak dapat diinstansiasi, tidak     |		         -	             |
+|          |                     | 	   memiliki konstruktor, semua methodnya abstrak,    |		         -	             |
+|          |                     | 	   tidak memiliki instansiasi variable 	             |	                 -	             |
+|          |                     |-interface dapat mengextend beberapa interface             |                   -                   |
+|          |                     |-interface tidak bisa mengimplement interface yang lain    |                   -                   |
+|          |                     |-di kelas abstrak tidak wajib implement method class       |                   -                   |
+|          |                     |	interface                                            |                   -                   |
+|          |                     |-jika di kelas biasa wajib mengimplement semua method class|                   -                   |
+|          |                     |	interface                                            |                   -                   |
+|          |                     |-menjelaskan apa itu tagging interface? mengapa dibuat     |-fathiarnh/Prolan-11/Fathia Rahma Nur  |
+|          |                     |	kosong tidak ada method                              | Hanifa-10115405-encapintegration/     |
+|          |                     |                                                           | Enkapsulasi ATK                       |
+--------------------------------------------------------------------------------------------------------------------------------------
+| 12       | Generic Class       | -generic: bisa untuk class atau method                    |                   -                   |
+|          |                     | -generic class : sifatnya universal, datanya tidak        |		         -	             |
+|          |                     | 	mempunyai tipe atau tidak dideklarasikan             |		         -	             |
+|          |                     | -generic != inheritance                                   |		         -	             |
+|          |                     | 	a. Inheritance : kelas anak akan mewarisi apa yang   |		         -	             |
+|          |                     | 	   dimiliki kelas bapak                              |		         -	             |
+|          |                     | 	b. generik : kelas bebas menentukan sendiri ingin    |		         -	             |
+|          |                     | 	   menjadi seperti apa                               |	                 -	             |
+|          |                     |-membuat program latihan generic                           |-fathiarnh/Prolan-11/Pertemuan 12 LAB  |
+|          |                     |-update tugas besar                                        |-fathiarnh/Prolan-11/Fathia Rahma Nur  |
+|          |                     |	                                                     | Hanifa-10115405-encapintegration/     |
+|          |                     |                                                           | Enkapsulasi ATK                       |
+--------------------------------------------------------------------------------------------------------------------------------------
+| 13       | Generic Class       | -generic method : digunakan untuk menyatakan tipe         |                   -                   |
+|          |                     | 	parameter method yang tidak berkaitan dengan tipe    |		         -	             |
+|          |                     | 	parameter yang dimiliki kelas                        |		         -	             |
+|          |                     | -menyatakan tipe generik untuk parameter method           |		         -	             |
+|          |                     | -tipe generik dapat disimpulkan dari parameter yang       |		         -	             |
+|          |                     | 	digunakan                                            |		         -	             |
+|          |                     | -menganalisa perbedaan generik class dan generic method   |                   -                   |
+|          |                     | -update tugas besar                                       |-fathiarnh/Prolan-11/Fathia Rahma Nur  |
+|          |                     |	                                                     | Hanifa-10115405-encapintegration/     |
+|          |                     |                                                           | Enkapsulasi ATK                       |
+--------------------------------------------------------------------------------------------------------------------------------------
+| 14       | package             | -package : menghindari konflik, representasinya folder    |                   -                   |
+|          |                     | -sebagai akses control untuk mencari class /file java     |		         -	             |
+|          |                     | -bisa menyimpan 2 file java yg sama dengan beda parameter |		         -	             |
+|          |                     | -jika ada 2 class yg berhubungan, taruh dalam 1 package   |		         -	             |
+|          |                     | -jika ada class protected, tidak bisa diakses package lain|		         -	             |
+|          |                     | -package untuk membungkus class dan interface tertentu    |		         -	             |
+|          |                     | -update tugas besar                                       |-fathiarnh/Prolan-11/Fathia Rahma Nur  |
+|          |                     |	                                                     | Hanifa-10115405-encapintegration/     |
+|          |                     |                                                           | Enkapsulasi ATK                       |
+--------------------------------------------------------------------------------------------------------------------------------------
