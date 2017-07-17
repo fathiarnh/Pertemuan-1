@@ -1,7 +1,21 @@
 
 package enkapsulasi.atk;
 
+
 public class classTampilan implements implementTampilan{
+    
+    public void tampilMenu(){
+        System.out.println("-----------------   MENU/FITUR   ------------------");
+        System.out.println("\t\t1. DATA ADMIN");
+        System.out.println("\t\t2. LIST HARGA");
+        System.out.println("\t\t3. DATA NOTA");
+        System.out.println("\t\t4. DATA TRANSAKSI");
+        System.out.println("\t\t\tA. DATA PEMBELI");
+        System.out.println("\t\t\tB. DATA TRANSAKSI BARANG");
+        System.out.println("\t\t\tC. DATA PEMBELIAN");
+        System.out.println("\t\t\tD. DATA STOK TERAKHIR");
+        System.out.println("\t\t5. KELUAR");
+    }
 
    @Override
     public void tampilBarang() {
@@ -51,18 +65,16 @@ public class classTampilan implements implementTampilan{
         alamat = "Cibeber, Cimahi";
         Gen1.showAddress(alamat);
         
-        Gen1<String> em = new Gen1<String>();
+        Gen1<String> em = new Gen1<>();
         
         System.out.print("\tEmail \t: ");
         em.setType("bagusrhmt@gmail.com");
         System.out.println(em.getType());
         
-        Gen1<Integer> um = new Gen1<Integer>();
+        Gen1<Integer> um = new Gen1<>();
         System.out.print("\tUmur \t: ");
         u = 20;
-        System.out.println(um.umur(u));      
-        
-        System.out.println("-------------------------------------");
+        System.out.println(um.umur(u));
     }
 
 }
