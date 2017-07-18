@@ -23,22 +23,7 @@ REVIEW PROLAN - OOP
 |          |                     | 	Inheritance, polymorphism, general, objek, dll	     |		         -	             |
 |	   |                     | -membuat program : menampilkan data mahasiswa	     |-fathiarnh/Prolan-11/Pertemuan 2 TEORI |
 |	   |                     | -membuat program : membuat Input Output dan pindah baris  |-fathiarnh/Prolan-11/Pertemuan 2 LAB   |
---------------------------------------------------------------------------------------------------------------------------------------
-| 2        |Konsep Dasar PBO-OOP | -PBO : Pemrograman Berorientasi objek                     |                   -                   |
-|          |                     | -OO : Object Oriented (Cara Berpikirnya)                  |                   -                   |
-|          |                     | -Pengembangan Perangkat Lunak : Fungsional, OO            |                   -                   |
-|          |                     | -Paradigma Berorientasi Objek : Analisis, Design          |                   -                   |
-|          |                     |      Program, Testing				     |		         -		     |
-|          |                     | - Prosedural Vs OO :					     |                   -                   |
-|	   |			 |      a. Type Vs Class				     |                   -                   |
-|          |                     |      b. Variable Vs Objek				     |		         -		     |
-|          |                     |      b. Lokal, Global Vs public, private, protected	     |		         -		     |
-|          |                     |      b. tidak ada definisi kelas Vs Definisi Kelas	     |		         -                   |
-|          |                     | -Pemodelan dan diagram : UML, pemrograman bahasa tertentu |		         -                   |
-|          |                     | -Karakteristik PBO : abstraksi, enkapsulasi, generik,     |		         -                   |
-|          |                     | 	Inheritance, polymorphism, general, objek, dll	     |		         -	             |
-|	   |                     | -membuat program : menampilkan data mahasiswa	     |-fathiarnh/Prolan-11/Pertemuan 2 TEORI |
-|	   |                     | -membuat program : membuat Input Output dan pindah baris  |-fathiarnh/Prolan-11/Pertemuan 2 LAB   |
+
 --------------------------------------------------------------------------------------------------------------------------------------
 | 3        |Kelas dan Objek      | -kelas :bentuk klasifikasi dari objek2 yang ada di sekitar|                   -                   |
 |          |                     | -objek-objek yang memiliki kesamaan dari segi data dan    |		         -	             |
@@ -166,7 +151,7 @@ REVIEW PROLAN - OOP
 |          |                     |	                                                     | Hanifa-10115405-encapintegration/     |
 |          |                     |                                                           | Enkapsulasi ATK                       |
 --------------------------------------------------------------------------------------------------------------------------------------
-| 13       | Generic Class       | -generic method : digunakan untuk menyatakan tipe         |                   -                   |
+| 13       | Generic Method      | -generic method : digunakan untuk menyatakan tipe         |                   -                   |
 |          |                     | 	parameter method yang tidak berkaitan dengan tipe    |		         -	             |
 |          |                     | 	parameter yang dimiliki kelas                        |		         -	             |
 |          |                     | -menyatakan tipe generik untuk parameter method           |		         -	             |
